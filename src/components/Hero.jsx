@@ -10,9 +10,9 @@ const Hero = () => {
       />
       <div className="bg-black/60 absolute top-0 left-0 w-full h-screen" />
       <div className="absolute top-0 w-full h-full flex flex-col justify-center text-white">
-        <div className="md:left-[10%] max-w-[1100] m-auto absolute p-4">
+        <div className="md:left-[10%] max-w-[1100px] m-auto absolute p-4">
           <p>All inclusive</p>
-          <h1 className="text-3xl font-bold sm:text-5xl md:text-7xl drop-shadow-2xl">Private Beaches & Gatways</h1>
+          <h1 className="text-3xl font-bold sm:text-5xl md:text-7xl drop-shadow-2xl">Private Travels & Gatways</h1>
           <p className="max-w-[600px] drop-shadow-2xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
             officiis sint eveniet aliquid, architecto dolorum provident dolor
