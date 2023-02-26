@@ -2,9 +2,9 @@ import React from "react";
 
 const Plan = () => {
   return (
-    <div className="max-w-[1100px] px-4 grid lg:grid-cols-2 gap-4 pb-12">
-      <div className="grid grid-cols-2 grid-rows-6 h-[80vh]">
-        <img className="row-span-3 object-cover w-full h-full  p-2"
+    <div className="max-w-[1100px] grid md:grid-cols-2 gap-4 pb-12 m-auto ">
+      <div className="grid grid-cols-2 grid-rows-6 h-[80vh] px-4">
+        <img className="row-span-3 object-cover w-full h-full  pb-2"
           src="https://cdn.pixabay.com/photo/2018/10/02/16/12/nature-3719233__340.jpg"
           alt=""
         />
@@ -16,7 +16,7 @@ const Plan = () => {
           src="https://cdn.pixabay.com/photo/2016/11/30/15/00/lighthouse-1872998__340.jpg"
           alt=""
         />
-        <img className="row-span-3 object-cover w-full h-full  p-2"
+        <img className="row-span-3 object-cover w-full h-full  p-0"
           src="https://cdn.pixabay.com/photo/2017/06/17/18/35/beach-2413081__340.jpg"
           alt=""
         />
@@ -25,7 +25,7 @@ const Plan = () => {
           alt=""
         />
       </div>
-      <div className="flex flex-col h-full justify-center">
+      <div className="flex flex-col h-full justify-center px-4">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold py-4 text-gray-700">Plan Your Next Trip</h1>
         <h3 className="font-bold py-1 text-gray-500">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur,
